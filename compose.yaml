@@ -1,0 +1,6 @@
+﻿services:
+  ecommercetechnicaltest:
+    image: ecommercetechnicaltest
+    build:
+      context: .
+      dockerfile: ECommerceTechnicalTest/Dockerfile
